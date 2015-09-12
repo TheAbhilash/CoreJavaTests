@@ -3,6 +3,8 @@ package com.bipu.core;
 public class StringTest {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World !");
+		String s ="abhilash";
+		
+		System.out.println(s.replace('a', 'A'));
 	}
 }
