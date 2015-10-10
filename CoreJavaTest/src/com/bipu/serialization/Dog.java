@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 public class Dog implements Serializable{
 
-	private transient Collar theCollar;
+	private Collar theCollar;
 	private int dogSize;
 	
 	public Dog(Collar collar, int size){
